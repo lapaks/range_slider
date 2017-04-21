@@ -1,27 +1,27 @@
 <div id="thumbnail-preview-indicators" class="carousel slide" data-ride="carousel" data-interval="false">
   <!-- Indicators -->
   <ol class="carousel-indicators">
-    <li data-target="#thumbnail-preview-indicators" data-slide-to="0" class="active">
+    <li data-target="#thumbnail-preview-indicators" data-slide-to="0" class="active item_1">
       <div class="thumbnail">
         <img class="img-responsive" src="https://s3.amazonaws.com/ooomf-com-files/wdXqHcTwSTmLuKOGz92L_Landscape.jpg">
       </div>
     </li>
-    <li data-target="#thumbnail-preview-indicators" data-slide-to="1">
+    <li data-target="#thumbnail-preview-indicators" data-slide-to="1" class="item_2">
     <div class="thumbnail">
         <img class="img-responsive" src="https://s3.amazonaws.com/ooomf-com-files/tU3ptNgGSP6U2fE67Gvy_SYDNEY-162.jpg">
       </div>
     </li>
-    <li data-target="#thumbnail-preview-indicators" data-slide-to="2">
+    <li data-target="#thumbnail-preview-indicators" data-slide-to="2" class="item_3">
     <div class="thumbnail">
         <img class="img-responsive" src="https://s3.amazonaws.com/ooomf-com-files/mtNrf7oxS4uSxTzMBWfQ_DSC_0043.jpg">
       </div>
     </li>
-    <li data-target="#thumbnail-preview-indicators" data-slide-to="3">
+    <li data-target="#thumbnail-preview-indicators" data-slide-to="3" class="item_4">
     <div class="thumbnail">
         <img class="img-responsive" src="https://s3.amazonaws.com/ooomf-com-files/wdXqHcTwSTmLuKOGz92L_Landscape.jpg">
       </div>
     </li>
-    <li data-target="#thumbnail-preview-indicators" data-slide-to="4">
+    <li data-target="#thumbnail-preview-indicators" data-slide-to="4" class="item_5">
     <div class="thumbnail">
         <img class="img-responsive" src="https://s3.amazonaws.com/ooomf-com-files/tU3ptNgGSP6U2fE67Gvy_SYDNEY-162.jpg">
       </div>

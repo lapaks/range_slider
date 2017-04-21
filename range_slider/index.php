@@ -73,18 +73,17 @@ performance and efficiency.</p>
     </div>
   </div>
 
-
+<?php include 'inc/img_slider.php';?>
+  <p class="text-center" id="value2">Value 0</p>
   <div class="slider-range relative">
     <div class="container">
       <form>
-        <input id="range" type="range" name="rangeInput" min="0" step="1" max="4" value="0" class="white" onchange="updateTextInput(this.value);" onchange="updateTextInput(this.value);" oninput="amount.value=rangeInput.value">
+        <input id="range" type="range" name="rangeInput" min="0" step="1" max="4" value="0" class="white" onchange="updateTextInput(this.value);" onchange="updateTextInput(this.value);">
       </form>
     </div>
   </div>
 
-  <p class="text-center" id="value2">Value 0</p>
 
-<?php include 'inc/img_slider.php';?>
 
   <div class="market_coverage ptb-6em">
     <div class="clearfix">
