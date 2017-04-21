@@ -75,14 +75,17 @@ performance and efficiency.</p>
 
 <?php include 'inc/img_slider.php';?>
   <p class="text-center" id="value2">Value 0</p>
+<div class="container">  
   <div class="slider-range relative">
     <div class="container">
       <form>
-        <input id="range" type="range" name="rangeInput" min="0" step="1" max="4" value="0" class="white" onchange="updateTextInput(this.value);" onchange="updateTextInput(this.value);">
-      </form>
+      <input id="range" type="range" class="white" name="rangeInput" min="10" max="350" step="10" value="10" data-rangeslider="" onchange="updateTextInput(this.value);" onchange="updateTextInput(this.value);" style="position: absolute; width: 1px; height: 1px; overflow: visible; opacity: 1; height: 17px; width: 100%;" >
+
+<!--         <input id="range" type="range" name="rangeInput" min="0" step="1" max="4" value="300" data-rangeslider class="white" onchange="updateTextInput(this.value);" onchange="updateTextInput(this.value);">
+ -->      </form>
     </div>
   </div>
-
+</div>
 
 
   <div class="market_coverage ptb-6em">

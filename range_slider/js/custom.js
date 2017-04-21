@@ -35,8 +35,6 @@ $(document).ready(function(){
 
 function updateTextInput() {
 
-
-
 	var value1 = Number(document.getElementById("range").value);
     var value2 = "",
         slide_1 = $('.item_1'),
@@ -54,16 +52,16 @@ function updateTextInput() {
 
         // Insert more code here for what you intend to do
     }
-    else if ( value1 === 1 ) {
-        value2 = "Value 1";
+    else if ( value1 === 10 ) {
+        value2 = "Value 10";
         slide_2.addClass('active');
         slide_1.removeClass('active');
         slide_3.removeClass('active');
         slide_4.removeClass('active');
         // Insert more code here for what you intend to do
     }
-    else if ( value1 === 2 ) {
-        value2 = "Value 2";
+    else if ( value1 === 20 ) {
+        value2 = "Value 20";
         slide_3.addClass('active');
         slide_1.removeClass('active');
         slide_2.removeClass('active');
@@ -71,16 +69,16 @@ function updateTextInput() {
 
         // Insert more code here for what you intend to do
     }
-    else if ( value1 === 3 ) {
-        value2 = "Value 3";
+    else if ( value1 === 30 ) {
+        value2 = "Value 30";
         slide_4.addClass('active');
         slide_1.removeClass('active');
         slide_2.removeClass('active');
         slide_3.removeClass('active');
         // Insert more code here for what you intend to do
     }
-    else if ( value1 === 4 ) {
-        value2 = "Value 4";
+    else if ( value1 === 40 ) {
+        value2 = "Value 40";
         slide_5.addClass('active');
         slide_1.removeClass('active');
         slide_2.removeClass('active');
@@ -91,7 +89,4 @@ function updateTextInput() {
     }
 
 	document.getElementById('value2').innerHTML = value2;
-
-
-
 }
