@@ -16,6 +16,16 @@
         <img class="img-responsive" src="https://s3.amazonaws.com/ooomf-com-files/mtNrf7oxS4uSxTzMBWfQ_DSC_0043.jpg">
       </div>
     </li>
+    <li data-target="#thumbnail-preview-indicators" data-slide-to="3">
+    <div class="thumbnail">
+        <img class="img-responsive" src="https://s3.amazonaws.com/ooomf-com-files/wdXqHcTwSTmLuKOGz92L_Landscape.jpg">
+      </div>
+    </li>
+    <li data-target="#thumbnail-preview-indicators" data-slide-to="4">
+    <div class="thumbnail">
+        <img class="img-responsive" src="https://s3.amazonaws.com/ooomf-com-files/tU3ptNgGSP6U2fE67Gvy_SYDNEY-162.jpg">
+      </div>
+    </li>
   </ol>
   <div class="carousel-inner">
     <div class="item slides active item_1">
