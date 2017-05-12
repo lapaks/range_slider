@@ -35,7 +35,7 @@ $(document).ready(function(){
 
 function updateTextInput() {
 
-	var value1 = Number(document.getElementById("range").value);
+	var value1 = Number(document.getElementById("output").value);
     var value2 = "",
         slide_1 = $('.item_1'),
         slide_2 = $('.item_2'),
